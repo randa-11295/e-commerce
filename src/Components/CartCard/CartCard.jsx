@@ -44,16 +44,18 @@ return(
                        
                       <div className={this.props.layout ? classes.contentLayout : classes.content} >
                         
-                          <h5 className={this.props.layout ? classes.headerLayout :classes.header} >  
+                         <p className={this.props.layout ? classes.headerLayout :classes.header}> {item.data.brand}</p>
+
+                          <p className={this.props.layout ? classes.headerLayout :classes.header} >  
                             {item.data.name}
-                          </h5>
+                          </p>
 
-                         <p className={classes.title}>{item.data.category}</p>
 
-                         <p className={classes.price}>Price :</p>
+                         {/* <p className={classes.price}>Price :</p> */}
 
                          <Price currencie={this.props.data.currencie}                             
                               price={item.data.prices} 
+                              layoutCart ={this.props.layout }
                              
                          />
 

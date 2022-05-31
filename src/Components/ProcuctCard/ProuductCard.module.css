@@ -1,6 +1,6 @@
 .box {
      width: 100%;
-     padding: 10px;
+     padding: 15px;
      transition: .4s ease-in-out ;
 }
 
@@ -19,7 +19,6 @@
      width: 100%;
      background-color: white;
      height: 250px;
-     border: rgb(225, 223, 223) solid 1px;
      position: relative;
 
 }
@@ -59,9 +58,15 @@
      position: relative;
 }
 
+.textOutStock {
+     color : var(--Grey) 
+}
+
 .data p {
-    color: var(--Grey);
-    padding: 15px 0 10px ;
+    /* color: var(--Grey); */
+    font-weight: 300;
+    font-size: 1.05rem;
+    padding: 35px 0 10px ;
 }
 
 .data b {

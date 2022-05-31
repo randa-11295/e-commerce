@@ -10,7 +10,7 @@
 .mainImg{
      height: 220px;
      width: 100%;
-     border: rgb(225, 223, 223) solid 1px;
+     /* border: rgb(225, 223, 223) solid 1px; */
      object-fit: contain;
 
 }
@@ -33,7 +33,7 @@
      transition: .4s ease-in-out ;
      cursor: pointer;
      overflow: hidden;
-     border: rgb(225, 223, 223) solid 1px;
+     /* border: rgb(225, 223, 223) solid 1px; */
      object-fit: contain;
 }
 

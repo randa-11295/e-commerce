@@ -2,11 +2,12 @@
 
 .header {
      font-size: 1.7rem;
+     margin: 10px 0;
      font-weight: 600;
 }
 
 .title {
-     font-size: .9rem;
+     font-size: 1rem;
      font-weight: 800;
      margin: 15px 0;
 }

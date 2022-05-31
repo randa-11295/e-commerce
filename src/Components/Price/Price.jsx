@@ -26,7 +26,7 @@ componentDidUpdate(prevProps) {
    }
    render(){
         return(
-           <h5 className={classes.price} >
+           <h5 className={this.props.layoutCart ? classes.priceLayout : classes.price } >
              {this.state.price?.currency.symbol} {this.state.price?.amount }
            </h5>
         )

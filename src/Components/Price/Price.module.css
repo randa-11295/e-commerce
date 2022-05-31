@@ -1,4 +1,11 @@
 .price {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.priceLayout {
+    font-size: 1rem;
+    margin: 10px 0 15px ;
+    font-weight: 400;
 }

@@ -11,7 +11,7 @@
 .boxLayout {
      width: 100%;
      margin: 5px auto ;
-     border-top: solid 1px var(--Grey) ;
+     border-top: solid 0px  ;
      padding: 10px 10px 7px;
      display :flex;
      justify-content:  space-between ;
@@ -43,12 +43,9 @@
      font-size: 1.1rem;   
 }
 
-.title {
-        font-size: 1.1rem;
-        color: var(--Grey);
-          font-weight: 400;
-     margin: 10px 0;
-    
+.headerLayout {
+     margin-bottom: 5px;
+     font-weight: 200;
 }
     
 .price {

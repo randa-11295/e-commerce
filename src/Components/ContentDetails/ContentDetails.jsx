@@ -51,8 +51,8 @@ render(){
      return(   
           <main className={classes.box}>
 
-             <h3 className={classes.header}> {this.props.data.name} </h3>
-             <p className={classes.type}> {this.props.data.category} </p>
+             <h3 className={classes.header}> {this.props.data.brand} </h3>
+             <p className={classes.type}> {this.props.data.name} </p>
 
              <Attributes  selectedValues={this.state} 
                           foucus={this.foucusHandel} 
