@@ -1,0 +1,27 @@
+.box { 
+        position: fixed;
+        color: white;
+        font-family: 800;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 7px;
+        left: 10%;
+        top: 10%;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        z-index: 20;
+        box-shadow: 5px 3px 10px 3px var(--Shadow);
+-webkit-box-shadow: 5px 3px 10px 3px var(--Shadow);
+-moz-box-shadow: 5px 3px 10px 3px var(--Shadow);
+  transition: .3s;
+}
+
+
+.error {
+  background: black
+}
+
+
+.vaild {
+  background: var(--Green);
+}

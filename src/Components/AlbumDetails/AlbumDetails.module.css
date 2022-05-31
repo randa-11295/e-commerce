@@ -1,0 +1,82 @@
+.box {
+     width: 100%;
+     display :flex;
+     justify-content:  space-around ;
+     align-items:  center ;
+     flex-direction: column;
+    
+}
+
+.mainImg{
+     height: 220px;
+     width: 100%;
+     border: rgb(225, 223, 223) solid 1px;
+     object-fit: contain;
+
+}
+
+.album{
+     overflow: hidden;
+     margin: 20px 0;
+     flex-wrap: wrap;
+     height: 90px;
+     display :flex;
+     justify-content: flex-start ;
+     align-items:  center ;
+}
+
+.photo {
+     width: 80px ;
+     height: 80px;
+     margin-bottom: 25px;
+     margin: 6px;
+     transition: .4s ease-in-out ;
+     cursor: pointer;
+     overflow: hidden;
+     border: rgb(225, 223, 223) solid 1px;
+     object-fit: contain;
+}
+
+.photo:hover {
+    transform: scale(1.1);  
+    box-shadow: 0px 0px 19px 5px var(--Shadow);
+    -webkit-box-shadow: 0px 0px 19px 5px var(--Shadow);
+    -moz-box-shadow:    0px 0px 19px 5px var(--Shadow);
+}
+
+
+@media (min-width : 768px) {
+   
+     .box {
+          width: 55%;
+     }
+
+
+     .mainImg{
+          height: 350px;
+          width: 100%;     
+     }
+
+     
+}
+
+@media (min-width : 1200px) {
+
+     .box {
+          flex-direction: row-reverse;
+          height: 80vh;
+     }
+
+     .album {
+          flex-direction: column;
+          flex-wrap: nowrap;
+          height: 100%;
+          width: 15%;
+     }
+     .mainImg{
+          height: 100%;
+          width: 80%;
+     
+     }
+     
+}

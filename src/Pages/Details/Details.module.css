@@ -1,0 +1,14 @@
+.box { padding: 10vh 10% 0;
+       flex-direction: column;
+       display :flex;
+       justify-content:  space-between ;
+       align-items:  flex-start ;
+}
+
+@media (min-width : 768px) {
+         .box {
+              flex-direction: row;
+              min-height: 94vh;
+              }
+}
+

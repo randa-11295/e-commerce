@@ -1,0 +1,96 @@
+
+
+.header {
+     font-size: 1.7rem;
+     font-weight: 600;
+}
+
+.title {
+     font-size: .9rem;
+     font-weight: 800;
+     margin: 15px 0;
+}
+
+.type {
+     font-size: 1.65rem !important;   
+     margin: 20px 0 ;
+     font-weight: 400;
+     color: var(--Grey);
+     text-transform: capitalize;
+}
+
+.btnBox {
+     width: 200px;
+}
+
+.container{
+  width: 100%;
+}
+
+
+.value {
+     margin: 5px 10px 30px 0px;
+     padding: 5px;
+     font-size: .75rem;
+     min-width: 50px;
+     line-height: 30px;
+     text-align: center;
+     border :solid black 1px;
+     transition  :.4s  ease-in-out
+
+}
+
+.value:hover , .valueActive {
+     background-color: black;
+     color: white;   
+}
+
+.color {
+     margin: 5px 10px 30px 0px;
+     width: 40px;
+     height: 38px;
+     border :solid  white 2px;
+     outline :solid  var(--Grey)  2px;
+     transition  :.4s  ease-in-out
+}
+
+.color:hover , .colorActive {
+     outline :solid var(--Green)  2px;
+     border :solid  var(--Green) 2px;
+}
+
+
+.descripsion {
+     line-height: 1.5rem;
+     font-size: .8rem;
+     margin-top: 30px;
+}
+
+
+
+
+@media (min-width : 768px) {
+     .box {
+          width: 40%;
+     }  
+}
+
+@media (min-width : 1200px) {
+
+
+     .header {
+          font-size: 2rem;
+     }
+
+     .type {
+          font-size: 1.3rem;
+     }
+
+     .descripsion {
+          line-height: 1.7rem;
+          font-size: 1rem;
+     }
+     
+    
+     
+}

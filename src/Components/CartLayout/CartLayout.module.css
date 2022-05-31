@@ -1,0 +1,67 @@
+.box{
+     background: rgba(57, 55, 72, 0.22);
+     position: fixed;
+     z-index: 2;
+     width: 100%;
+     height: 100vh;
+}
+
+.container {
+     background-color: white;
+     width: 90%;
+     margin: auto;
+     max-height: 80%;
+     overflow: hidden;
+     flex-direction: column;
+     padding: 40px 5px 0;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  stretch ;
+}
+
+.empty {text-align: center;
+       padding: 100px 0;
+}
+
+.qty { font-size: 1.1rem;
+        padding:  10px ;
+}
+
+.qty b { font-weight: 400;}
+
+.cards {max-height: 75%;
+     overflow-y: auto;
+     border-bottom: 1px solid var(--Grey);
+}
+.btnBox {
+     width: 48%;
+}
+
+.price {
+     margin: 5px 10px;
+     font-weight: 800;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  space-between ;
+}
+.btnArea {
+     margin: 0px 10px 10px;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  center ;
+}
+
+@media (min-width : 768px) {
+     .container {
+          width: 40%;
+          margin-right: 10%;
+     }
+     
+}
+
+@media (min-width : 1200px) {
+     .container {
+          width: 27%;
+     }
+     
+}

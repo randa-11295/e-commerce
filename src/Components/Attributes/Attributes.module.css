@@ -1,0 +1,81 @@
+.title {
+     font-size: .9rem;
+     font-weight: 800;
+}
+
+.container{
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  display :flex;
+  justify-content:  flex-start ;
+  align-items:  center ;
+}
+
+.size {
+     margin: 2px 10px 10px 0 ;
+     font-size: .9rem;
+     line-height: 20px;
+     min-width: 35px;
+     padding: 7px;  
+}
+
+.layout {
+     margin:3px 5px 5px 0px ;
+     font-size: .5rem;
+     min-width: 20px;
+     padding: 4px;  
+}
+
+
+.layoutColor {
+     width: 33px;
+     height: 33px;
+     margin: 2px 10px 10px 0 ;
+}
+
+.layoutColorSize {
+     width: 25px;
+     height: 25px;
+     margin:5px 7px 5px 0px ;
+}
+
+
+
+
+
+.value {
+         
+     text-align: center;
+     border :solid black 1px;
+     transition  :.3s  ease-in-out;
+     cursor: default;
+}
+
+.color {
+     border :solid  white 2px;
+     outline :solid  var(--Grey)  2px;
+     transition  :.3s  ease-in-out;
+}
+
+.valueChose:hover , .valueActive {
+     background-color: black;
+     color: white;   
+}
+
+.colorChose:hover , .colorActive {
+     outline :solid var(--Green)  2px;
+     border :solid  var(--Green) 2px;
+   
+}
+
+.colorChose , .valueChose{
+     cursor: pointer;
+}
+
+
+
+
+
+
+

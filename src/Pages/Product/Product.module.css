@@ -1,0 +1,46 @@
+.box {
+     width: 90%;
+     margin: auto;
+     padding: 8vh 5% 0 ;
+
+
+    
+}
+
+
+.content { 
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);         
+          grid-auto-rows: auto;        
+          grid-gap: 1rem;   
+      
+     }
+
+
+     
+@media (min-width : 768px) {
+     .content { 
+          grid-template-columns: repeat(2, 1fr);         
+          grid-gap: 2rem;   
+      
+     }
+
+     
+}
+
+@media (min-width : 992px) {
+     .content { 
+          grid-template-columns: repeat(3, 1fr);         
+          grid-gap: 4rem;   
+      
+     }
+
+}
+
+@media (min-width : 1200px) {
+     .content { 
+          grid-gap: 3rem 6.5rem;   
+      
+     }
+     
+} 

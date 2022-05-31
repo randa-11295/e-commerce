@@ -1,0 +1,28 @@
+.btn {
+     line-height: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 700;
+     letter-spacing: .75px;
+     transition: .3s ease-in-out;
+     margin-top: 10px ;
+     width: 100%;
+}
+
+.btn:hover {
+     transform: scale(1.1);
+}
+
+.outLine {
+     background : white;
+     border : 1px solid black;
+     color : black ;
+}
+
+
+.solid {
+     background : var(--Green);
+           border : 1px solid var(--Green);
+           color : white ;
+         
+}

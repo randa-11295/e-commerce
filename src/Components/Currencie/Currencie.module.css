@@ -1,0 +1,23 @@
+.box {
+     position: absolute;
+     top: 100%;  
+     height: auto; 
+     background-color: white;
+     width: 100%;
+     border :  #EEEEEE  solid 1px;
+        box-shadow: 0px 0px 19px 5px var(--Shadow);
+-webkit-box-shadow: 0px 0px 19px 5px var(--Shadow);
+-moz-box-shadow:    0px 0px 19px 5px var(--Shadow);
+}
+
+
+
+.item { padding: 8px 25px;
+     cursor: pointer;
+     transition: .3s;
+     text-align: center;     
+}
+
+.item:hover {
+     background-color: #EEEEEE ;
+}

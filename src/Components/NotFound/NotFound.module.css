@@ -1,0 +1,10 @@
+.box {
+     height: 100vh;
+     padding: 10%;
+     font-size: 3rem;
+     line-height: 8rem;
+     display :flex;
+     justify-content:  center ;
+     align-items:  center ;
+     
+}

@@ -1,0 +1,19 @@
+.box{
+     margin: 20px auto ;
+     border-top: solid 1px var(--Grey) ;
+     padding: 5px 0 0;
+}
+
+.btnBox {
+   width: 150px;
+}
+
+.box p {
+     font-size: 1.2rem;
+     margin: 20px 0;
+     letter-spacing: .75px;
+}
+
+.box p:last-child{
+     font-weight: 600;
+}

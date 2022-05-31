@@ -1,0 +1,158 @@
+.box {
+     width: 100%;
+     margin: 25px auto ;
+     border-top: solid 1px var(--Grey) ;
+     padding: 20px 0 0;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  stretch ;
+}
+
+.boxLayout {
+     width: 100%;
+     margin: 5px auto ;
+     border-top: solid 1px var(--Grey) ;
+     padding: 10px 10px 7px;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  stretch ;
+}
+
+.content {
+     width: 50%;
+     height: 100%;
+}
+
+.album {
+     width: 50%;
+     overflow: hidden;
+     display :flex;
+     justify-content:  space-around ;
+     align-items:  center ;
+}
+
+.albumLayout {
+     width: 55%;
+     overflow: hidden;
+     display :flex;
+     justify-content:  space-around ;
+     align-items:  center ;
+}
+
+.header {
+     font-size: 1.1rem;   
+}
+
+.title {
+        font-size: 1.1rem;
+        color: var(--Grey);
+          font-weight: 400;
+     margin: 10px 0;
+    
+}
+    
+.price {
+     font-size: .9rem;
+     font-weight: 800;
+     margin: 5px 0;
+}
+
+.photoContiner {
+     width: 80%;
+     height: 100%;
+     border: solid 1px var(--Grey) ;
+     display :flex;
+     justify-content:  center ;
+     align-items:  center ;
+     position: relative;
+}
+
+
+
+.photo {
+     width: 100%;
+     max-height: 180px;
+     object-fit: contain;    
+}
+
+.photoLayout {
+     width: 100%;
+     max-height: 155px;
+     object-fit: contain;    
+}
+.control {
+     flex-direction: column;
+     height: 100%;
+     font-size: 1.4rem;
+     display :flex;
+     justify-content:  space-between ;
+     align-items:  center ; 
+    
+}
+
+.changeImg {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+} 
+
+.changeImg h6 {
+      width: 20px;
+      text-align: center;
+      line-height: 20px;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.773);
+      margin:  0px 8px 8px 0;
+      color: white;
+      cursor: pointer ;
+      font-size: .75rem;
+}
+
+
+.contentLayout{
+     width : 44%
+}
+
+
+.control p {
+     width: 30px;
+     line-height: 30px;
+      text-align: center;
+     border: solid 1px var(--Grey) ;
+     transition: .3s;
+}
+
+.control p:hover {
+     background-color: black;
+     color: white;
+     cursor: pointer;
+     
+}
+
+
+
+.remove {
+     font-size: .8rem;
+     transition: .3s;
+     cursor: pointer;
+     padding: 2px 0;
+     font-weight: 400;
+     border-bottom: solid black 1px;
+}
+.remove:hover {
+     color: var(--Green);
+     border-bottom: solid var(--Green) 1px;
+}
+
+@media (min-width : 768px) {
+     .album {width : 38% }
+     .content {width : 38%}
+     .header {
+          font-size: 1.4rem;
+     }
+}
+
+@media (min-width : 1200px) {
+     .album {width : 20% }
+     .content {width : 35%}
+}
