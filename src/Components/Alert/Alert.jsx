@@ -7,7 +7,7 @@ class Alert extends PureComponent {
 
    render(){
         return(
-             <p  className={classes.box +" "+ (this.props.error ? classes.error : classes.vaild  )}>
+             <p  className={classes.box +"test"+ (this.props.error ? classes.error : classes.vaild  )}>
                    {this.props.text}
              </p>
         )
