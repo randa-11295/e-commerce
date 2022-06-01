@@ -30,7 +30,7 @@ return(
                   onClick={()=>{this.props.foucus({[type.name] : val.value})}} 
                   style={{backgroundColor : val.value }}>
                     
-                {  type.type !== "swatch" ?   val.displayValue  : null }
+                {  type.type !== "swatch" ?   val.value  : null }
 
             </aside>
           )})   

@@ -5,6 +5,8 @@ class Currencie extends PureComponent {
    
 render(){
 return (
+<section className={classes.continer} onClick={()=>{this.props.fun("close")}}>
+
 <main className={classes.box} >
 { this.props.currencies.map((el)=>{
 return ( <p key={uuidv4()} onClick={()=>this.props.changeCurrencie(el.symbol)} className={classes.item}>
@@ -12,6 +14,7 @@ return ( <p key={uuidv4()} onClick={()=>this.props.changeCurrencie(el.symbol)} c
         </p>   
 )})}       
 </main>   
+</section>
  )}
 }
 export default Currencie

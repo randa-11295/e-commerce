@@ -18,15 +18,16 @@
 .photoContiner {
      width: 100%;
      background-color: white;
-     height: 250px;
+     height: 300px;
      position: relative;
+     overflow: hidden;
 
 }
 
 .photo {
      width: 100%;
-     height: 100%;
-     object-fit: contain;
+     min-height: 100%;
+     object-fit: cover;
 }
 
 .cart {
@@ -65,8 +66,8 @@
 .data p {
     /* color: var(--Grey); */
     font-weight: 300;
-    font-size: 1.05rem;
-    padding: 35px 0 10px ;
+    font-size: 1.1rem;
+    padding: 20px 0 5px ;
 }
 
 .data b {

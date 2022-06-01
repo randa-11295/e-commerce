@@ -44,7 +44,7 @@ render(){return(
                </Link>
                </div>
                <div className={classes.btnBox}>
-                  <Button  clickHandel={()=>{  val.showOrder()}} text="check out"/>
+                  <Button  clickHandel={()=>{  val.showOrder(true)}} text="check out"/>
                </div>
          </footer>
       </figcaption>

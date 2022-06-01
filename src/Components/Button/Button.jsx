@@ -9,7 +9,7 @@ class Button extends PureComponent {
       
    render(){
         return(
-               <button onClick={this.props.clickHandel}
+               <button onClick={()=>{this.props.clickHandel()}}
           
                    className={classes.btn +" "+ (this.props.outLine  ? classes.outLine : classes.solid )}>
                    {this.props.text}</button>

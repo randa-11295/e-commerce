@@ -1,5 +1,5 @@
 .nav {
-       height: 6vh;
+       height: 50px;
        font-size: small;
        z-index: 5;
        position: fixed;
@@ -21,7 +21,6 @@
 }
 
 .currencie {
-     position: relative;
      width: 120px;
      display: flex;
      justify-content: center;
@@ -97,16 +96,19 @@
      justify-content: center;
 
 }
+.cartCount p {
+     line-height: 0;
+}
 
 @media (min-width : 768px) {
      .route {
-          padding: 8px  ;
+          padding: 15px 8px ;
           margin: 0 10px;
           font-size: .9rem;   
      }
      
      .active {
-                padding: 8px  ;
+                padding: 15px 8px ;
                 margin: 0 10px;
                 font-size: .9rem;
      }

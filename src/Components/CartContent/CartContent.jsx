@@ -6,29 +6,28 @@ import classes from "./CartContent.module.css"
 class CartContent extends PureComponent {
      state ={  tax : 0 }
 
-     componentDidMount(){
-          this.props.data.calculateTotalPrice()
-          this.props.data.calculateTotalQty()
-          this.setState({tax : ( this.props.data.totalPrice *21)/100 })
-     }
+componentDidMount(){
+this.props.data.calculateTotalPrice()
+this.props.data.calculateTotalQty()
+this.setState({tax : ( this.props.data.totalPrice *21)/100 })
+}
 
-     componentDidUpdate(prevProps) {
-    
-          if (this.props.data.currencie !== prevProps.data.currencie  
-               || this.props.data.cartItems !== prevProps.data.cartItems  
-               ) {                
-               this.componentDidMount()           
-              }   
-               
-         if (!this.props.data.cartItems.length){
-             this.setState({tax : 0})
-  
-         }
-        }
+componentDidUpdate(prevProps) {
 
-     orderHandel=()=>{
-         this.props.data.showOrder(true)
-     }
+if (this.props.data.currencie !== prevProps.data.currencie  
+     || this.props.data.cartItems !== prevProps.data.cartItems  
+     ) {                
+     this.componentDidMount()           
+ }   
+     
+if (!this.props.data.cartItems.length){
+     this.setState({tax : 0})
+}
+}
+
+orderHandel=()=>{
+this.props.data.showOrder(true)
+}
 
 render(){
 return (<section className={classes.box} >
@@ -37,7 +36,7 @@ return (<section className={classes.box} >
 
             <p> Quantity : <b> {this.props.data.totalQty} </b> </p>
           
-            <p> Total :    <b> {this.props.data.currencie}
+       <p> <span>Total</span> : <b> {this.props.data.currencie}
                                {this.props.data.totalPrice}</b> </p>
 
             <aside className={classes.btnBox} >

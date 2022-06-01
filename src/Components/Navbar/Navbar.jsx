@@ -43,7 +43,7 @@ componentDidUpdate(prevProps) {
 render() {
    return(  <div className="Contanier" >
    <nav className={classes.nav}  >
-        <DataContext.Consumer  >
+    <DataContext.Consumer  >
      {(val)=>{return( <>
         <ul className={classes.ul} >
          { this.state.categories.map((el)=>{
@@ -86,6 +86,7 @@ render() {
                </div>
 
                  { this.props.currencieLayout ? <Currencie changeCurrencie={val.changeCurrencie} 
+                                                  fun={this.props.showCurrencieLayout}
                                                   currencies={this.state.currencies}  /> : null }
           </section>
           

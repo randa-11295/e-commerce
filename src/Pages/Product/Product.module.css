@@ -1,10 +1,7 @@
 .box {
      width: 90%;
      margin: auto;
-     padding: 8vh 5% 0 ;
-
-
-    
+     padding: 60px 5% 0 ; 
 }
 
 
@@ -39,7 +36,7 @@
 
 @media (min-width : 1200px) {
      .content { 
-          grid-gap: 3rem 6.5rem;   
+          grid-gap: 3rem 4rem;   
       
      }
      

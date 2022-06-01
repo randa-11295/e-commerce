@@ -142,14 +142,16 @@ showCartLayout =(targetBoolean)=>{
   
 }
 
-showCurrencieLayout =()=>{
+showCurrencieLayout =(closeValue)=>{
   this.closeLayouts()
-
+ if (closeValue === 'close'){
+     this.setState({currencieLayout: false})
+ }
+ else{
   const toggel = !this.state.currencieLayout
   this.setState({currencieLayout: toggel})
+ }
 }
-
-
 
 render(){
   return  (
