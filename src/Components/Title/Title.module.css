@@ -11,7 +11,8 @@
 
 .headerCart{
      font-size: 2rem;
-     font-weight: 600;
+     font-weight: 700;
+     text-transform: uppercase;
 }
 
 @media (min-width : 768px) {

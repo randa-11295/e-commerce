@@ -13,10 +13,8 @@
 }
 
 .type {
-     font-size: 1.65rem !important;   
-     margin: 20px 0 ;
-     font-weight: 400;
-     color: var(--Grey);
+     font-size: 1.7rem !important;   
+     margin: 15px 0 30px;
      text-transform: capitalize;
 }
 
@@ -46,19 +44,6 @@
      color: white;   
 }
 
-.color {
-     margin: 5px 10px 30px 0px;
-     width: 40px;
-     height: 38px;
-     border :solid  white 2px;
-     outline :solid  var(--Grey)  2px;
-     transition  :.4s  ease-in-out
-}
-
-.color:hover , .colorActive {
-     outline :solid var(--Green)  2px;
-     border :solid  var(--Green) 2px;
-}
 
 
 .descripsion {

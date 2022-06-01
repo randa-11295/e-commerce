@@ -10,7 +10,7 @@ return(
 this.props.attributes?.map(type=>{
 return(
   <div key={type.id} >
-    <h4 className={(this.props.layOut ? classes.titleLayout : classes.title)} > {type.name} : </h4>
+    <h4 className={(this.props.layOut ? classes.titleLayout : classes.title)} > {type.name}: </h4>
 
     <figure  className={classes.container}>
 

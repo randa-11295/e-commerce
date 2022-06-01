@@ -40,12 +40,12 @@
 }
 
 .header {
-     font-size: 1.2rem; 
-     margin-bottom: 12px;  
+     font-size: 1.7rem !important; 
+     margin-bottom: 12px;
 }
 
 .headerBrand {
-     font-size: 1.3rem;
+     font-size: 1.5rem;
      margin-bottom: 8px;
      font-weight: 800;
 }
@@ -69,7 +69,6 @@
      align-items:  center ;
      position: relative;
      overflow: hidden;
-     /* background-color: yellowgreen; */
 }
 
 
@@ -79,7 +78,6 @@
      top: 50%;
      transform: translate(0 , -50%);
      width: 100%;
-     /* max-height:100%; */
 }
 
 .photoLayout {

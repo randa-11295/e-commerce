@@ -65,7 +65,7 @@
 
 .colorChose:hover , .colorActive {
      outline :solid var(--Green)  2px;
-     border :solid  var(--Green) 2px;
+     /* border :solid  var(--Green) 2px; */
    
 }
 
