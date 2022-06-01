@@ -10,7 +10,7 @@
 
 .boxLayout {
      width: 100%;
-     margin: 5px auto ;
+     margin: 10px auto ;
      border-top: solid 0px  ;
      padding: 10px 10px 7px;
      display :flex;
@@ -32,7 +32,7 @@
 }
 
 .albumLayout {
-     width: 55%;
+     width: 45%;
      overflow: hidden;
      display :flex;
      justify-content:  space-around ;
@@ -40,7 +40,14 @@
 }
 
 .header {
-     font-size: 1.1rem;   
+     font-size: 1.2rem; 
+     margin-bottom: 12px;  
+}
+
+.headerBrand {
+     font-size: 1.3rem;
+     margin-bottom: 8px;
+     font-weight: 800;
 }
 
 .headerLayout {
@@ -57,19 +64,22 @@
 .photoContiner {
      width: 80%;
      height: 100%;
-     border: solid 1px var(--Grey) ;
      display :flex;
      justify-content:  center ;
      align-items:  center ;
      position: relative;
+     overflow: hidden;
+     /* background-color: yellowgreen; */
 }
 
 
 
 .photo {
+     position: absolute;
+     top: 50%;
+     transform: translate(0 , -50%);
      width: 100%;
-     max-height: 180px;
-     object-fit: contain;    
+     /* max-height:100%; */
 }
 
 .photoLayout {
@@ -84,6 +94,7 @@
      display :flex;
      justify-content:  space-between ;
      align-items:  center ; 
+     margin-right: 5px;
     
 }
 
@@ -107,26 +118,38 @@
 
 
 .contentLayout{
-     width : 44%
+     width : 54%;
 }
 
 
-.control p {
-     width: 30px;
-     line-height: 30px;
-      text-align: center;
-     border: solid 1px var(--Grey) ;
+.control p {  
+     font-weight: 200;
+     text-align: center;
+     border: solid 1px black ;
      transition: .3s;
 }
+.controlItem {
+     font-size: 2rem;
+     width: 35px;
+     line-height: 35px;
+ 
+}
 
+.controlItemLayout {
+     font-size: 1.5rem;
+     width: 20px;
+     line-height: 20px;
+}
+
+.control h5 {
+     font-weight: 400;
+}
 .control p:hover {
      background-color: black;
      color: white;
      cursor: pointer;
      
 }
-
-
 
 .remove {
      font-size: .8rem;
@@ -150,6 +173,6 @@
 }
 
 @media (min-width : 1200px) {
-     .album {width : 20% }
-     .content {width : 35%}
+     .album {width : 18% }
+     .content {width : 30%}
 }

@@ -22,7 +22,7 @@ render(){return(
 <main className={classes.container}   onClick={(e)=>{e.stopPropagation()}}  >
    
       <h5 className={classes.qty} >
-         My Bag , <b>{val.totalQty}</b>
+         My Bag, <b>{val.totalQty} items</b>
       </h5>
 
       {val.cartItems.length === 0 ? <p className={classes.empty}> Your cart is Empty </p> :   
